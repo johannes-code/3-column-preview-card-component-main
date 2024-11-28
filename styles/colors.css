@@ -1,19 +1,12 @@
-.orange {
-  color: hsl(31, 77%, 52%);
-}
-
-.cyan {
-  color: hsl(184, 100%, 22%);
-}
-
-.dcyan {
-  color: hsl(179, 100%, 13%);
-}
-
-.white {
+.thiswhite {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.grey {
+.mylightgrey {
   color: hsl(0, 0%, 95%);
 }
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
