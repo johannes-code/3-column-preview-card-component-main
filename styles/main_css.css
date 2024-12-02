@@ -49,20 +49,21 @@ h3 {
 
 button {
   border-radius: 32px;
-  background-color: transparent;
-  border-style: solid 4px;
+  border: solid 4px;
   padding: 18px;
   margin-top: 42px;
   font-size: 18px;
   border-color: hsla(0, 0%, 100%, 0.75);
+  cursor: pointer;
 }
 
 button.learn {
-  color: hsla(0, 0%, 100%, 0.75);
+  /* color: hsla(0, 0%, 100%, 0.75); */
 }
 
-button :hover {
-  
+button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 .attribution {
@@ -72,6 +73,14 @@ button :hover {
 
 .sedan {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 14px 0 0 14px;
+}
+
+.sedan button {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedan button:hover {
 }
 
 .suv {
@@ -80,4 +89,5 @@ button :hover {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 14px 14px 0;
 }
